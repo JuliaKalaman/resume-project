@@ -243,3 +243,24 @@ body {
   letter-spacing: normal;
   line-height: 24px;
 }
+
+li:hover {
+  background: #eca15bfa;
+  transition-duration: 1s;
+  border-radius: 6px;
+  margin: 1px;
+  transition-timing-function: ease-out;
+}
+
+b:hover {
+  background: #eca15bfa;
+  transition-duration: 1s;
+  border-radius: 6px;
+}
+
+@media only screen and (max-width: 992px), and (orientation: landscape) {
+  .wrapper {
+    width: 750px;
+    flex-shrink: 1;
+  }
+}
